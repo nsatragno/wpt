@@ -1,7 +1,7 @@
 #!/bin/bash
 
 PREFIX="$1"
-VIDEO=false
+VIDEO=true
 
 if [ "$VIDEO" = "true" ]; then
   # capture 10 seconds of video every 10 minutes for at most 2 hours
