@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<link rel="match" href="range-setattribute-value-ref.html">
+<title>range input element setAttribute value appearance</title>
+
+<p>Test passes if the range elements below have their sliders all the way at the right</p>
+
+<input type=range min=0 max=10 id="asdf"></input>
+
+<script>
+window.onload = () => {
+  const input = document.getElementById('asdf');
+  input.setAttribute('value', 10);
+};
+</script>
